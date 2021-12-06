@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Roboto;
+  src: url("./Variant/fonts/woff2/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+/*VAR 1 (LIST + FLEX) START*/
+
+.ulVar1 {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/*VAR 1 END*/
+
+/*VAR 2 START*/
+.conteinerVar2 {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/*VAR 2 END*/
+
+/*VAR 3 START*/
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Var 3 END */
+
+/* Var 5 Start */
+.conteinerVar5 {
+  position: relative;
+
+  width: 267px;
+  height: 100px;
+
+  margin: 0 auto;
+}
+/* Var 5 END */
+
+/* VAR 7 Start */
+.conteinerVar7 {
+  width: 266px;
+  margin: 0 auto;
+  clear: both;
+  display: grid;
+  grid-template-columns: 98px 1fr;
+  gap: 20px;
+}
+/* Var 7 END */
+
+/* Var 8 Start */
+.conteinerVar8 {
+  font-size: 2.4rem;
+  line-height: 1.16;
+  position: relative;
+  width: 267px;
+  margin: 0 auto;
+}
+
+.conteinerVar8::before{
+    width: 146px;
+  position: absolute;
+  top: 22px;
+  left: 120px;
+
+    content: "John Doe";
+    font-size: 2.4rem;
+    line-height: 1.16;
+}
+
+.conteinerVar8::after{
+   position: absolute;
+   top: 59px;
+   left: 120px;
+    content: "Software engineer";
+    font-size: 1.8rem;
+    line-height: 1.16; 
+    padding-top: 9px;
+}
+
+/* var 8 End */
